@@ -7,7 +7,15 @@ body {
     margin: 0;
     font-size: 15px;
 }
-
+@media screen and (max-width:800px) { 
+    body { 
+        font-size:0.8em; 
+    }
+    img { 
+        width:300px; 
+        min-height:100px; 
+    }
+}
 .mySlides {
     display: none
 }
